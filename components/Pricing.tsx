@@ -41,7 +41,7 @@ export default function Pricing() {
                     </div>
                 </div>
             </div>
-            <p className="fs14 text-cetner p16">Want to read for free? Learn more </p>
+            <p className="fs14 text-center p16">Want to read for free? Learn more </p>
         </div>
     )
 }

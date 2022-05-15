@@ -117,7 +117,7 @@ color: rgba(255, 255, 255, 0.3);
 .p16{
   padding: 16px;
 }
-.text-cetner{
+.text-center{
   text-align: center;
 }
 .chap-item{
@@ -140,4 +140,48 @@ color: rgba(255, 255, 255, 0.3);
 }
 .margin-horzital-24{
   margin: 24px 0
+}
+.block-about h2{
+  margin-bottom: 13px;
+}
+.block-about .tag-info{
+  margin-top: 8px;
+  margin-bottom: 22px
+}
+.block-about .summary{
+  margin-top: 9px;
+  margin-bottom: 12px
+}
+.chapter-thumbnail{
+  position: relative;
+}
+.chapter-thumbnail .blocked-chapter{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.chapter-thumbnail .blocked-chapter::before {
+  content: "";
+  background: #FFFFFF;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.chapter-thumbnail .anticon-lock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.chapter-thumbnail .anticon-lock svg{
+  fill: #000;
 }
